@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'my-first-project';
+  firstName:string = 'Ghayal';
+  studenNumbar:number = 333;
+  empArr:any =['test11', 'test222'];
+  isButton:boolean = false;
+  obj:any = {};
 }
